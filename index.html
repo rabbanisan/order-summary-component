@@ -20,52 +20,47 @@
 		<script src="https://cdn.tailwindcss.com"></script>
 	</head>
 	<body>
-		<div class="container">
-			<div class="card">
-				<div class="card-header">
-					<img
-						src="/images/illustration-hero.svg"
-						class="card-image rounded-t-2xl"
-					/>
-				</div>
+		<main class="container">
+			<main class="card">
+				<img
+					src="/images/illustration-hero.svg"
+					alt="illustration-hero"
+					class="card-image"
+				/>
 				<div class="card-body">
-					<h1 class="text-2xl font-extrabold text-gray-700">Order Summary</h1>
+					<h1 class="card-heading">Order Summary</h1>
 					<p class="card-paragraph">
 						You can now listen to millions of songs, audiobooks, and podcasts on
 						any device anywhere you like!
 					</p>
-					<div class="plan-box flex justify-center items-center rounded-lg">
+					<div class="plan-box">
 						<img
 							class="plan-image"
 							src="/images/icon-music.svg"
 							alt="icon-music"
 						/>
 						<div class="plan-detail">
-							<h2 class="plan-label text-sm font-semibold">Annual Plan</h2>
+							<h2 class="plan-heading">Annual Plan</h2>
 							<p class="plan-paragraph">$59.99/year</p>
 						</div>
-						<a class="plan-action text-sm font-semibold underline" href=""
+						<a class="plan-action" href=""
 							>Change</a
 						>
 					</div>
 				</div>
 				<div class="card-footer">
-					<div class="proceed rounded-lg">
-						<button class="payment-button text-white text-sm font-semibold m-3">
-							Proceed to Payment
-						</button>
-					</div>
-					<div class="cancel font-semibold my-8">
-						<a class="cancel-action text-sm" href=""> Cancel Order </a>
-					</div>
+					<button class="payment-button">
+						Proceed to Payment
+					</button>		
+					<a class="cancel-action" href=""> Cancel Order </a>
 				</div>
-			</div>
+			</main>
 		</div>
-		<div class="attribution">
+		<footer class="attribution">
 			Challenge by
 			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
 				>Frontend Mentor</a
-			>. Coded by <a href="#">Your Name Here</a>.
-		</div>
+			>. Coded by <a href="#">Muhammad Rabbani R.</a>.
+		</footer>
 	</body>
 </html>
